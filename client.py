@@ -1,10 +1,10 @@
-import sockettt
+import socket
 
 IP = socket.gethostbyname(socket.gethostname())
 PORT = 4455
 ADDR = (IP, PORT)
 FORMAT = "utf-8"
-SIZEE = 1024
+SIZE = 1024
 
 def main():
     """ Staring a TCP socket. """
